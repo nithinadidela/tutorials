@@ -38,6 +38,10 @@ Variant of *computingDerivatives.py*, where the same accuracy can be reached. In
 
 Procedure follows [this suggestion](https://fenicsproject.discourse.group/t/compute-gradient-of-scalar-field-on-boundarymesh/1172/2). Overall flux is conserved. Accuracy in single nodes depends on mesh resolution.
 
+## domainWithCornersHighOrder.py
+
+Like domainWithCorners.py, but using higher order basis functions, thus obtaining analytical solution.
+
 ## gradientOnBoundaryMesh.py
 
 Procedure follows [this suggestion](https://fenicsproject.discourse.group/t/project-gradient-on-boundarymesh/262/2). Overall flux is conserved. Accuracy in single nodes depends on mesh resolution. However, this approach is less accurate than the above one (domainWithCorners.py)
